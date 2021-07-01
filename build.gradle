@@ -23,7 +23,7 @@ buildscript {
     ext.dagger_version = "2.11"
     ext.circule_image_view_version = "3.1.0"
     ext.glide_version = "4.12.0"
-    ext.hilt_version = "2.28-alpha"
+    ext.hilt_version = "2.37"
     ext.hilt_extensions_version = "1.0.0-alpha03"
 
     repositories {
