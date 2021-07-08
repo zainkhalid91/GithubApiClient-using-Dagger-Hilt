@@ -1,8 +1,8 @@
-package com.nitb.githubclientapp.usecase
+package com.zain.githubclientapp.usecase
 
-import com.nitb.githubclientapp.model.RepositoryModel
-import com.nitb.githubclientapp.network.ResultData
-import com.nitb.githubclientapp.repository.DataRepository
+import com.zain.githubclientapp.model.RepositoryModel
+import com.zain.githubclientapp.network.ResultData
+import com.zain.githubclientapp.repository.DataRepository
 import javax.inject.Inject
 
 class DataUseCase @Inject constructor(private val dataRepository: DataRepository) {

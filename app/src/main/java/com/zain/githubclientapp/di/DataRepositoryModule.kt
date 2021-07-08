@@ -1,7 +1,7 @@
-package com.nitb.githubclientapp.di
+package com.zain.githubclientapp.di
 
-import com.nitb.githubclientapp.network.ApiService
-import com.nitb.githubclientapp.repository.DataRepository
+import com.zain.githubclientapp.network.ApiService
+import com.zain.githubclientapp.repository.DataRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -15,4 +15,4 @@ object DataRepositoryModule {
     fun provideDataRepository(apiService: ApiService): DataRepository {
         return DataRepository(apiService)
     }
-}
+}  

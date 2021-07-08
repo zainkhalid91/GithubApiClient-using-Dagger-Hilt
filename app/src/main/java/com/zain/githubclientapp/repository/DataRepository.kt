@@ -1,7 +1,7 @@
-package com.nitb.githubclientapp.repository
+package com.zain.githubclientapp.repository
 
-import com.nitb.githubclientapp.model.RepositoryModel
-import com.nitb.githubclientapp.network.ApiService
+import com.zain.githubclientapp.model.RepositoryModel
+import com.zain.githubclientapp.network.ApiService
 import javax.inject.Inject
 
 class DataRepository @Inject constructor(private val apiService: ApiService) {

@@ -1,4 +1,4 @@
-package com.nitb.githubclientapp.network
+package com.zain.githubclientapp.network
 
 object NetworkConstants {
     const val BASE_URL = "https://api.github.com/"

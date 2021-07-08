@@ -1,4 +1,6 @@
-package com.nitb.githubclientapp.model
+package com.zain.githubclientapp.model
+
+import androidx.recyclerview.widget.DiffUtil
 
 class RepositoryModel : ArrayList<RepositoryModel.RepositoryModelItem>() {
     data class RepositoryModelItem(
@@ -69,5 +71,22 @@ class RepositoryModel : ArrayList<RepositoryModel.RepositoryModelItem>() {
             val type: String,
             val url: String
         )
+    }
+
+    class DiffUtilRepositoriesModelItem :
+        DiffUtil.ItemCallback<RepositoryModel.RepositoryModelItem>() {
+        override fun areItemsTheSame(
+            oldItem: RepositoryModel.RepositoryModelItem,
+            newItem: RepositoryModel.RepositoryModelItem
+        ): Boolean {
+            return newItem.id == oldItem.id
+        }
+
+        override fun areContentsTheSame(
+            oldItem: RepositoryModel.RepositoryModelItem,
+            newItem: RepositoryModel.RepositoryModelItem
+        ): Boolean {
+            return newItem == oldItem
+        }
     }
 }

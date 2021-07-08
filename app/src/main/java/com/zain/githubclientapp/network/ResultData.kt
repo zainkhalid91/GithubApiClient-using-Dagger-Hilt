@@ -1,4 +1,4 @@
-package com.nitb.githubclientapp.network
+package com.zain.githubclientapp.network
 
 sealed class ResultData<out T> {
     data class Success<out T>(val data: T? = null) : ResultData<T>()

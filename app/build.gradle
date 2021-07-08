@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.nitb.githubclientapp"
+        applicationId "com.zain.githubclientapp"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -17,7 +17,9 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        
+        buildFeatures {
+            viewBinding = true
+        }
     }
 
     buildTypes {
@@ -25,6 +27,8 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

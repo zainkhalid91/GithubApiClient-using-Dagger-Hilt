@@ -1,6 +1,6 @@
-package com.nitb.githubclientapp.network
+package com.zain.githubclientapp.network
 
-import com.nitb.githubclientapp.model.RepositoryModel
+import com.zain.githubclientapp.model.RepositoryModel
 import retrofit2.http.GET
 import retrofit2.http.Query
 
