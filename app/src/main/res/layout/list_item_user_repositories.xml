@@ -34,22 +34,26 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:text="hello"
+                android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/image_view_owner"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Baljeet Singh" />
+                tools:text="Zain" />
 
-            <androidx.appcompat.widget.AppCompatTextView
+            <TextView
                 android:id="@+id/text_view_repository_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                android:text="hello"
+                android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_view_owner_name"
-                tools:text="Baljeet Singh" />
+                tools:text="Zain" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/text_view_repository_description"
@@ -62,7 +66,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_view_repository_name"
-                tools:text="Baljeet Singh" />
+                tools:text="Zain" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
